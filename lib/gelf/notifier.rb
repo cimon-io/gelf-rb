@@ -227,7 +227,7 @@ module GELF
 
       @hash['level'] = @level_mapping[@hash['level']]
 
-      Zlib::Deflate.deflate(@hash.to_json).bytes
+      Zlib::Deflate.deflate(MultiJson.dump(@hash)).bytes
     end
 
     def self.stringify_keys(hash)
