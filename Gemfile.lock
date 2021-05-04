@@ -44,7 +44,7 @@ GEM
       rack (~> 1.2)
     power_assert (0.2.3)
     rack (1.5.2)
-    rake (10.1.0)
+    rake (13.0.3)
     rdoc (4.0.1)
       json (~> 1.4)
     shoulda (2.11.3)
